@@ -20,9 +20,9 @@ https://lemoneru.github.io/vpm-repos/index.json
 
 ## ベータ版の表示について
 
-`3.0.0-beta.2` のようなプレリリース版は、VCC の
-**Settings → Packages → Show Pre-release Packages** を ON にすると一覧に表示されます。
-（ALCOM は設定不要で表示されます）
+`3.0.0-beta.2` のようなプレリリース版は、「プレリリース版を表示」を ON にすると一覧に表示されます。
+- VCC: **Settings → Packages → Show Pre-release Packages**
+- ALCOM: **設定 → VPMパッケージ → 「プレリリース版のパッケージを表示する」**
 
 ## トライアル版とコンプリート版
 
