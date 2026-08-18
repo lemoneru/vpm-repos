@@ -36,9 +36,9 @@ BOOTH（<https://lemoneru.booth.pm/items/7074770>）で購入すると**解除�
 
 3.0 は `Packages/com.lemoneru.avatar-blink-fix/` に入ります。以前の版が `Assets/LEMONERU/Avatar Blink Fix/` に残っていると二重になり正しく動きません。
 **追加する前に、そのフォルダの中の `Editor` と `Runtime`（あればプレハブ 2 つ・README・CHANGELOG・package.json も）を削除**してください。`Data`・`Animation`・`json` は残して構いません（修正の記録・生成したアニメーション・追加したプリセット。3.0 もそのまま使います）。
-先に 3.0 を入れてしまってもエラーが出ていなければ、Tools → Avatar Blink Fix を開くと「古い Avatar Blink Fix のファイルが残っています」と案内が出て、［旧本体を削除］でツール本体のファイルだけをごみ箱へ移動できます。
+先に 3.0 を入れてしまった場合（VCC / ALCOM で追加、または unitypackage を上書き）は、Unity が読み込み直したときに「古い Avatar Blink Fix の削除」のダイアログが出るので、［旧本体を削除］を押せばツール本体のファイルだけがごみ箱へ移動します（Tools → Avatar Blink Fix の上部からもできます）。
 
-**Upgrading from 2.x (EN)**: 3.0 lives in `Packages/`. Before adding it, delete `Editor` and `Runtime` inside `Assets/LEMONERU/Avatar Blink Fix/` (keep `Data`, `Animation`, `json`). If already added and the window still opens, use **[Delete old files]** shown at the top of Tools → Avatar Blink Fix.
+**Upgrading from 2.x (EN)**: 3.0 lives in `Packages/`. Before adding it, delete `Editor` and `Runtime` inside `Assets/LEMONERU/Avatar Blink Fix/` (keep `Data`, `Animation`, `json`). If 3.0 was installed first, a **[Delete old files]** dialog appears on reload (also available at the top of Tools → Avatar Blink Fix) and trashes only the tool files.
 
 ## 収録パッケージ
 
