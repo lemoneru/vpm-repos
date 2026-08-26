@@ -6,6 +6,21 @@
   "packages": {
     "com.lemoneru.avatar-blink-fix": {
       "versions": {
+        "3.0.3": {
+          "name": "com.lemoneru.avatar-blink-fix",
+          "displayName": "Avatar Blink Fix",
+          "version": "3.0.3",
+          "unity": "2022.3",
+          "description": "改変で壊れたまばたきを数クリックで修正するVRChatアバター向けツール。NDMF対応の非破壊修正とベイク修正の両方に対応。",
+          "author": {
+            "name": "LEMONERU",
+            "url": "https://lemoneru.booth.pm/"
+          },
+          "documentationUrl": "https://lemoneru.booth.pm/items/7074770",
+          "changelogUrl": "https://github.com/lemoneru/vpm-repos",
+          "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix-3.0.3/com.lemoneru.avatar-blink-fix-3.0.3.zip",
+          "zipSHA256": "63f525ada93bc50f81e80bd12bf4596b6e3158fcf89382a8d81c565a2f3f5a70"
+        },
         "3.0.2": {
           "name": "com.lemoneru.avatar-blink-fix",
           "displayName": "Avatar Blink Fix",
