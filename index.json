@@ -608,6 +608,46 @@
           "changelogUrl": "https://lemoneru.github.io/abf-docs/changelog",
           "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix-3.0.32/com.lemoneru.avatar-blink-fix-3.0.32.zip",
           "zipSHA256": "d1e1a902819a94874c56ca88fb30a36f12ff1626a7d62aacf21498c29d53197a"
+        },
+        "3.0.33": {
+          "name": "com.lemoneru.avatar-blink-fix",
+          "displayName": "Avatar Blink Fix",
+          "version": "3.0.33",
+          "unity": "2022.3",
+          "description": "改変で壊れたまばたきを数クリックで修正するVRChatアバター向けツール。NDMF対応の非破壊修正とベイク修正の両方に対応。",
+          "author": {
+            "name": "LEMONERU",
+            "url": "https://lemoneru.booth.pm/"
+          },
+          "vpmDependencies": {
+            "com.lemoneru.avatar-blink-fix.presets": ">=1.0.0",
+            "nadena.dev.ndmf": ">=1.3.0"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "documentationUrl": "https://lemoneru.github.io/abf-docs/",
+          "changelogUrl": "https://lemoneru.github.io/abf-docs/changelog",
+          "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix-3.0.33/com.lemoneru.avatar-blink-fix-3.0.33.zip",
+          "zipSHA256": "f3233d84c0b67caebcb4052048daf6787d14d6d831677c4d30eada2e8f87979c"
+        }
+      }
+    },
+    "com.lemoneru.avatar-blink-fix.presets": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.lemoneru.avatar-blink-fix.presets",
+          "displayName": "Avatar Blink Fix Presets",
+          "version": "1.0.0",
+          "unity": "2022.3",
+          "description": "Avatar Blink Fix のアバター別 Auto Fix プリセット集。Avatar Blink Fix 本体と一緒に入ります。",
+          "author": {
+            "name": "LEMONERU",
+            "url": "https://lemoneru.booth.pm/"
+          },
+          "documentationUrl": "https://lemoneru.github.io/abf-docs/",
+          "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix.presets-1.0.0/com.lemoneru.avatar-blink-fix.presets-1.0.0.zip",
+          "zipSHA256": "b6eb5e8c9ea270ce302fe69a219aeebfdf0164f8c311141aa18949ddc9a4b4bb"
         }
       }
     }
