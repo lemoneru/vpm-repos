@@ -630,6 +630,28 @@
           "changelogUrl": "https://lemoneru.github.io/abf-docs/changelog",
           "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix-3.0.33/com.lemoneru.avatar-blink-fix-3.0.33.zip",
           "zipSHA256": "f3233d84c0b67caebcb4052048daf6787d14d6d831677c4d30eada2e8f87979c"
+        },
+        "3.0.34": {
+          "name": "com.lemoneru.avatar-blink-fix",
+          "displayName": "Avatar Blink Fix",
+          "version": "3.0.34",
+          "unity": "2022.3",
+          "description": "改変で壊れたまばたきを数クリックで修正するVRChatアバター向けツール。NDMF対応の非破壊修正とベイク修正の両方に対応。",
+          "author": {
+            "name": "LEMONERU",
+            "url": "https://lemoneru.booth.pm/"
+          },
+          "vpmDependencies": {
+            "com.lemoneru.avatar-blink-fix.presets": ">=1.0.0",
+            "nadena.dev.ndmf": ">=1.3.0"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "documentationUrl": "https://lemoneru.github.io/abf-docs/",
+          "changelogUrl": "https://lemoneru.github.io/abf-docs/changelog",
+          "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix-3.0.34/com.lemoneru.avatar-blink-fix-3.0.34.zip",
+          "zipSHA256": "926a4a01a69c0ba5966f0583bd38b94159cd412738674932ab355f2919a1256b"
         }
       }
     },
@@ -648,6 +670,20 @@
           "documentationUrl": "https://lemoneru.github.io/abf-docs/",
           "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix.presets-1.0.0/com.lemoneru.avatar-blink-fix.presets-1.0.0.zip",
           "zipSHA256": "b6eb5e8c9ea270ce302fe69a219aeebfdf0164f8c311141aa18949ddc9a4b4bb"
+        },
+        "1.0.1": {
+          "name": "com.lemoneru.avatar-blink-fix.presets",
+          "displayName": "Avatar Blink Fix Presets",
+          "version": "1.0.1",
+          "unity": "2022.3",
+          "description": "Avatar Blink Fix のアバター別 Auto Fix プリセット集。Avatar Blink Fix 本体と一緒に入ります。",
+          "author": {
+            "name": "LEMONERU",
+            "url": "https://lemoneru.booth.pm/"
+          },
+          "documentationUrl": "https://lemoneru.github.io/abf-docs/",
+          "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix.presets-1.0.1/com.lemoneru.avatar-blink-fix.presets-1.0.1.zip",
+          "zipSHA256": "efd11ed67591c78dc0255a09b2f0a46ed2ce2b2bf261860ceeab1948de944c4c"
         }
       }
     }
