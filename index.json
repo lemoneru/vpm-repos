@@ -720,6 +720,20 @@
           "documentationUrl": "https://lemoneru.github.io/abf-docs/",
           "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix.presets-1.0.2/com.lemoneru.avatar-blink-fix.presets-1.0.2.zip",
           "zipSHA256": "963e73635db60a18796003f036a52cb255fdb5a6d7148366df2265f06d17fd74"
+        },
+        "1.1.0": {
+          "name": "com.lemoneru.avatar-blink-fix.presets",
+          "displayName": "Avatar Blink Fix Presets",
+          "version": "1.1.0",
+          "unity": "2022.3",
+          "description": "Avatar Blink Fix のアバター別 Auto Fix プリセット集。Avatar Blink Fix 本体と一緒に入ります。",
+          "author": {
+            "name": "LEMONERU",
+            "url": "https://lemoneru.booth.pm/"
+          },
+          "documentationUrl": "https://lemoneru.github.io/abf-docs/",
+          "url": "https://github.com/lemoneru/vpm-repos/releases/download/com.lemoneru.avatar-blink-fix.presets-1.1.0/com.lemoneru.avatar-blink-fix.presets-1.1.0.zip",
+          "zipSHA256": "0242520e7563771e1d22bf52eb0d52109c88fe8a9c80459ffa572d8af87d71df"
         }
       }
     }
